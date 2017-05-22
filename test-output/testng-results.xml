@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8048" started-at="2017-05-22T20:55:03Z" finished-at="2017-05-22T20:55:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8048" started-at="2017-05-22T20:55:03Z" finished-at="2017-05-22T20:55:11Z">
+      <class name="Test.SignUpGmail_test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.SignUpGmail_test@523884b2]" name="setUp" is-config="true" duration-ms="6596" started-at="2017-05-22T17:55:03Z" finished-at="2017-05-22T17:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="T00_Validar_Mensajes_de_Error()[pri:0, instance:Test.SignUpGmail_test@523884b2]" name="T00_Validar_Mensajes_de_Error" duration-ms="349" started-at="2017-05-22T17:55:10Z" finished-at="2017-05-22T17:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T00_Validar_Mensajes_de_Error -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.SignUpGmail_test@523884b2]" name="tearDown" is-config="true" duration-ms="171" started-at="2017-05-22T17:55:10Z" finished-at="2017-05-22T17:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T00_Validar_Mensajes_de_Error status=SUCCESS method=SignUpGmail_test.T00_Validar_Mensajes_de_Error()[pri:0, instance:Test.SignUpGmail_test@523884b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.SignUpGmail_test@523884b2]" name="tearDown" is-config="true" duration-ms="920" started-at="2017-05-22T17:55:10Z" finished-at="2017-05-22T17:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.SignUpGmail_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
