@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="Test.SignUpGmail_test">
+      <class name="Test.DoSignUpGmail_Test">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="T00_Validar_Mensajes_de_Error"/>
+          <include name="T00_RegistroGmail"/>
         </methods>
-      </class> <!-- Test.SignUpGmail_test -->
+      </class> <!-- Test.DoSignUpGmail_Test -->
+      <class name="Test.Error_Messages_SignUpGmail_test">
+        <methods>
+          <include name="T00_Validar_Mensajes_de_Error_Nombre"/>
+          <include name="setUp"/>
+          <include name="T05_Validar_Mensajes_de_Error_ShortPass"/>
+          <include name="T06_Validar_Mensajes_de_Error_NotEqualsPass"/>
+          <include name="T03_Validar_Mensajes_de_Error_Email"/>
+          <include name="T02_Validar_Mensajes_de_Error_Email"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="T04_Validar_Mensajes_de_Error_Pass"/>
+          <include name="T01_Validar_Mensajes_de_Error_Apellido"/>
+        </methods>
+      </class> <!-- Test.Error_Messages_SignUpGmail_test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

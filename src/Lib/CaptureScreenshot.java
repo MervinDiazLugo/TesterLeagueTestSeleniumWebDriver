@@ -36,7 +36,7 @@ public class CaptureScreenshot {
     FileUtils.copyFile(source, destino);
     
     System.out.println("Se tomo la Captura de pantalla");
-    System.out.println(Reportes.ReportURL);
+
     
     return ruta;
     
